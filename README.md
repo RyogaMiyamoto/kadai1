@@ -26,20 +26,24 @@
 ![IMG_5072](https://user-images.githubusercontent.com/95730326/147661710-c274d459-a296-4fed-9e00-b9bd2fe60101.JPG)
 
 # 操作方法
-## LEDの点灯
-```   
+## 【インストールの方法】
+```
+git clone  
+cd kadai1/  
 make                          //コンパイル  
 sudo insmod myled.ko  
-sudo chmod 666 /dev/myled0  
+sudo chmod 666 /dev/myled0
+```
+## LEDの点灯
+### 【インストールの方法】のコマンドを実行後に以下のコマンドを実行
+```  
 echo 1 > /dev/myled0　　　　　 //LED点灯  
 echo 0 > /dev/myled0 　　　　　//LED消灯
 ```
 
 ## fishの表示
+### 【インストールの方法】のコマンドを実行後に以下のコマンドを実行
 ```   
-make                          //コンパイル  
-sudo insmod myled.ko  
-sudo chmod 666 /dev/myled0  
 cat /dev/myled0               //fishの表示  
 ```
 
