@@ -7,7 +7,7 @@
 
 # 概要
 **echo 1 > /dev/myled0**と入力するとLEDが光ります。  
-**echo 0 > /dev/myled0**と入力するとLEDが消えます。
+**echo 0 > /dev/myled0**と入力するとLEDが消えます。  
 **cat /dev/myled0**と入力すると**fish**と表示されます。  
 
 # 使用環境
