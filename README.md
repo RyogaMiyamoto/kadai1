@@ -28,7 +28,7 @@
 # 操作方法
 ## 【インストールの方法】
 ```
-git clone  
+git clone git@github.com:RyogaMiyamoto/kadai1.git
 cd kadai1/  
 make                          //コンパイル  
 sudo insmod myled.ko  
@@ -47,6 +47,9 @@ echo 0 > /dev/myled0 　　　　　//LED消灯
 cat /dev/myled0               //fishの表示  
 ```
 
+```
+**fish**が表示され続けるので、controlキーとCを同時に押すことでfish表示画面から抜け出すことができます
+```
 # 実演動画
 [Youtube・課題１](https://youtu.be/IhJudgNxoRk)
 
